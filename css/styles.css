@@ -1,0 +1,118 @@
+:root {
+  --main-title-color: #2E2F42;
+  --second-title-color: #434455;
+  --akcent-color: #404BBF;
+  --typical-lh: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body { 
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/*=====================COMPONENTS==================*/
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  color: var(--main-title-color);
+}
+.section-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: var(--main-title-color);
+}
+.section-description {
+  font-weight: 400;
+  line-height: var(--typical-lh);
+  letter-spacing: 2%;
+  color: var(--second-title-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 3%;
+    }
+.logo-theme-light { color: var(--main-title-color); }
+.logo-theme-dark { color: #F4F4FD; }
+.logo:hover, .logo:focus { color: var(--akcent-color); }
+/*=====================\COMPONENTS==================*/
+
+/*=====================HEADER==================*/
+
+.header-link:hover, .header-link:focus { color: var(--akcent-color) ; }
+
+.header-mail, .header-tel {
+font-weight: 400;
+line-height: var(--typical-lh);
+letter-spacing: 2%;
+color: var(--second-title-color);
+}
+.header-mail:hover, .header-mail:focus { color: var(--akcent-color); }
+.header-tel:hover, .header-tel:focus { color: var(--akcent-color); }
+
+/*=====================/HEADER==================*/
+
+/*==================HERO==================*/
+.hero {background-color: var(--main-title-color);}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #FFFFFF
+   
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: var(--typical-lh);
+  letter-spacing: 4%;
+  color:#FFFFFF;
+  background-color: #4D5AE5;
+  
+  cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus { background-color: var(--akcent-color); }
+
+/*=====================/HERO==================*/
+
+/*=====================FOOTER==================*/
+.footer {background-color: var(--main-title-color);}
+.footer-text {
+  font-weight: 400;  
+  line-height: var(--typical-lh);
+  letter-spacing: 2%;
+  color: #E7E9FC;
+}
+/*=====================/FOOTER==================*/
+
+/*=====================PORTFOLIO==================*/
+.filter-btn { 
+  color: #4D5AE5;
+  font-family: inherit;
+  background-color: #F4F4FD;
+  font-weight: 400;
+  letter-spacing: 4%;
+  line-height: var(--typical-lh);
+}
+.filter-btn:hover, .filter-btn:focus { background-color: var(--akcent-color); color: #FFFFFF; }
+
+
+
+
+/*=====================/PORTFOLIO==================*/
