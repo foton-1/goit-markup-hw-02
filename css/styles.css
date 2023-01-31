@@ -128,6 +128,8 @@ span.akcent {color: var(--theme-dark);}
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: var(--typical-lh);
+
+  cursor: pointer;
 }
 .filter-btn:hover, .filter-btn:focus { background-color: var(--akcent-color); color: #FFFFFF; }
 
